@@ -1,9 +1,10 @@
 # Lesson 3.6: Tech Usage & Events Review
 
-**What are Event Handlers?** 
-  Event handlers are JavaScript functions that get executed when a specific event occurs. They bring interactivity to web pages.
+**What are Event Handlers?** :
+- Event handlers are JavaScript functions that get executed when a specific event occurs. They bring interactivity to web pages.
 
-- **Common events**:
+**Common events** :
+
 ```javascript
 // Click Events
 let btn = document.querySelector("button");
