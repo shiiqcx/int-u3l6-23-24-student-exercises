@@ -6,7 +6,7 @@ let hoverCard = document.querySelector('[data-secret="hover"]');
 //  - The selector is hoverCard
 //  - The event type is mouseover
 {
-    let image = this.querySelector('.hidden-image');
+    let image = document.querySelector('.hidden-image');
     image.style.width = '100%';
     image.style.height = '100%';
     image.style.opacity = '1';
@@ -16,7 +16,7 @@ let hoverCard = document.querySelector('[data-secret="hover"]');
 //  - The selector is hoverCard
 //  - The event type is mouseout
 {
-    let image = this.querySelector('.hidden-image');
+    let image = document.querySelector('.hidden-image');
     image.style.width = '0';
     image.style.height = '0';
     image.style.opacity = '0';
